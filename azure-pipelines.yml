@@ -1,11 +1,3 @@
-# Universal Windows Platform
-- task: VSBuild@1
-  inputs:
-    solution: '**\*.sln'
-    vsVersion: '15.0'
-    msbuildArgs: 'MSBuild'
-    platform: 'x64'
-    msbuildArchitecture: 'x64'
 # Build a Universal Windows Platform project using Visual Studio.
 # Add steps that test and distribute an app, save build artifacts, and more:
 # https://aka.ms/yaml
